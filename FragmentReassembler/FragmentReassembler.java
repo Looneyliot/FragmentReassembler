@@ -23,6 +23,7 @@ public class FragmentReassembler {
      */
     public static void main(String[] args) {
         // If no argument specified then run these test cases
+        // Create your own input cases here
         if (args.length < 1) {
             String[] arr = { "all is well", "ell that en", "hat end", "t ends well" };
 
@@ -46,6 +47,7 @@ public class FragmentReassembler {
         }
         // If file name is specified then take content of file
         // write it to string array, and reassemble fragments
+        // Expected file format: {fragment 1}{fragment 2} {fragment 3} ... {fragment N}
         else if (args.length == 1) {
             String[] fileArray = inputFileToArrayList(args[0]);
 
