@@ -9,7 +9,8 @@ Finding the optimal reassembly is equivalent to the shortest common superstring,
 
 ### File Shredder:
 
-This program is used to create test input for *Fragment Reassembler*. It takes a file, duplicates it numCopies times, fragments it into the format {fragment 1}{fragment 2} {fragment 3} ... {fragment N}, and outputs it to a new text file .
+This program is used to create test input for *Fragment Reassembler*. It takes a file, duplicates it numCopies times, fragments it into the format {fragment 1}{fragment 2} {fragment 3} ... {fragment N}, and outputs it to a new text file.
+In the *fragmentDocument* method you have the option to change the minimum and maximum fragment sizes, and the number of copies to shred.
 
 ### Built With
 
@@ -78,6 +79,15 @@ Then run *FragmentReassembler* with the shredded file as an argument:
 ```
 java FragmentReassembler shreddedFile
 ```
+
+## Examples:
+
+There are several fragmented text files in the *FragmentReassembler* directory which you can run FragmentReassembler.java on: shreddedFireBird.txt (~instant reassembly time), shreddedGhostPoem.txt (~30 second reassembly time), shreddedSpiderFly.txt (~3.5 minute reassembly time).
+
+The output of running FragmentReassembler on these text files is seen [here](https://github.com/Looneyliot/FragmentReassembler/tree/main/FragmentReassembler/ExampleImages).
+
+
+
 
 <!-- CONTACT -->
 ## Contact
