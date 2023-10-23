@@ -84,6 +84,8 @@ java FragmentReassembler shreddedFile
 
 There are several fragmented text files in the *FragmentReassembler* directory which you can run FragmentReassembler.java on: shreddedFireBird.txt (~instant reassembly time), shreddedGhostPoem.txt (~30 second reassembly time), shreddedSpiderFly.txt (~3.5 minute reassembly time).
 
+The output of running FragmentReassembler on these text files is seen [here](https://github.com/Looneyliot/FragmentReassembler/tree/main/FragmentReassembler/ExampleImages).
+
 
 
 
