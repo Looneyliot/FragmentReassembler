@@ -54,7 +54,7 @@ javac FileShredder.java
 4. Run the program:
     + To fragment inputFile and write the output to outputFile type: 
     ```
-    java FragmentReassembler inputFile outputFile
+    java FileShredder inputFile outputFile
     ```
 
 
@@ -62,9 +62,9 @@ javac FileShredder.java
 ## Getting input to test:  
 
 You have 2 main options to test reassembling fragments:
-1. Go into FragmentReassemble and create an array with your fragments. Run method on your array and print result in main:
+1. Go into FragmentReassembler and create an array with your fragments. Run method on your array and print result in main:
 ```
-System.out.println("Fragments Reassembled:\n" + reassembleFragment(myArray, arr.length));
+System.out.println("Fragments Reassembled:\n" + reassembleFragment(myArray, myArray.length));
 ```
 Then run *FragmentReassembler* with no arguments: 
 ```
